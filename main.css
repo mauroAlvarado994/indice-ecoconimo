@@ -1,0 +1,40 @@
+:root{
+/*Colors*/
+--orangeeconomic: #ffd19b 
+}
+
+*{
+box-sizing: border-box;
+margin: 0;
+padding:0;
+font-family: 'Anek Devanagari', sans-serif;
+}
+
+html{
+font-size:62.5%;
+}
+
+/******************body *************/
+
+body{
+background-color: var(--orangeeconomic);
+}
+
+.Container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);    
+}
+
+.Container>.header {
+    grid-column: 1/-1;
+    background-color: #fb852d;
+    color: #ffffff;
+}
+.Container>.Footer{
+    grid-column: 1/-1;
+    background-color: #fb852d;
+    color: #ffffff;
+}
+
+/*Header*/
+
