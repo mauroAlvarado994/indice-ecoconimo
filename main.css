@@ -37,7 +37,25 @@ body{
 
 .header .buttons{
     list-style: none;
+    display: grid;
+    grid-template-columns:  5% 15% 10% 70%;
+    grid-template-areas: "inicio importante contactanos .";
+    padding: 20px;
+    font-size: 1.7em;
+    text-align: center;
 }
+
+.header .buttons .inicio{
+   grid-area: inicio;
+}
+
+.header .buttons .importante{
+    grid-area: importante;
+ }
+
+ .header .buttons .contactanos{
+    grid-area: contactanos;
+ }
 
 .Container>.Footer{
     grid-column: 1/-1;
