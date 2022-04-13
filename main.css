@@ -1,12 +1,13 @@
 :root{
 /*Colors*/
---orangeeconomic: #ffd19b 
+--orangeeconomic: #ffd19b;
+--varAndFooter: #fb852d;
 }
 
 *{
 box-sizing: border-box;
-margin: 0;
 padding:0;
+margin: 0;
 font-family: 'Anek Devanagari', sans-serif;
 }
 
@@ -17,8 +18,11 @@ font-size:62.5%;
 /******************body *************/
 
 body{
-background-color: var(--orangeeconomic);
+    margin: 2%;
+    background-color: var(--orangeeconomic);
 }
+
+/*Header*/
 
 .Container{
     display: grid;
@@ -27,14 +31,37 @@ background-color: var(--orangeeconomic);
 
 .Container>.header {
     grid-column: 1/-1;
-    background-color: #fb852d;
-    color: #ffffff;
-}
-.Container>.Footer{
-    grid-column: 1/-1;
-    background-color: #fb852d;
+    background-color: var(--varAndFooter);
     color: #ffffff;
 }
 
-/*Header*/
+.header .buttons{
+    list-style: none;
+}
+
+.Container>.Footer{
+    grid-column: 1/-1;
+    background-color: var(--varAndFooter);
+    color: #ffffff;
+}
+
+.Container>.Content{
+    grid-column: span 3; /*span es para ver cuantas columnas ocupa en el grid*/
+}
+
+.Content .Articles{
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid var(--varAndFooter);
+    background-color: #f7f7f7;
+}
+
+.Container>.advertising{
+    grid-column: span 2;
+    border: 1px solid var(--varAndFooter);
+    margin: 10px;
+    padding: 10px;
+}
+
+
 
