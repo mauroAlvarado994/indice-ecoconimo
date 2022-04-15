@@ -111,7 +111,8 @@ li a{
 }
 /*********images***********************/
 .Content .Articles .images{
-    width: 540px;
+    width: 100%;
+
 }
 
 .Container>.advertising{
