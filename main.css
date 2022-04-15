@@ -1,14 +1,13 @@
 :root{
 /*Colors*/
---orangeeconomic: #ffd19b;
---varAndFooter: #fb852d;
+--orangeeconomic: #ffdcc8;
+--varAndFooter: #b3b8bb;
 }
 
 *{
 box-sizing: border-box;
 padding:0;
 margin: 0;
-font-family: 'Anek Devanagari', sans-serif;
 }
 
 html{
@@ -23,10 +22,16 @@ body{
 }
 
 /*Header*/
+h1 {
+    font-family: 'UnifrakturMaguntia', cursive;
+    font-size: 80px;
+    color: var(--varAndFooter);
+}
 
 .Container{
     display: grid;
     grid-template-columns: repeat(5, 1fr);    
+    font-family: 'Anek Devanagari', sans-serif;
 }
 
 .Container>.header {
@@ -43,6 +48,11 @@ body{
     padding: 20px;
     font-size: 1.7em;
     text-align: center;
+}
+
+li a{
+    color: azure;
+    text-decoration: none;
 }
 
 .header .buttons .inicio{
@@ -98,6 +108,10 @@ body{
     padding: 5px;
     border: 1px solid var(--varAndFooter);
     background-color: #f7f7f7;
+}
+/*********images***********************/
+.Content .Articles .images{
+    width: 540px;
 }
 
 .Container>.advertising{
