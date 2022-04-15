@@ -57,11 +57,37 @@ body{
     grid-area: contactanos;
  }
 
+ /*foooooteeeerrr*/
 .Container>.Footer{
     grid-column: 1/-1;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-areas: "follow insta face twitt tick";
+    padding: 10px;
     background-color: var(--varAndFooter);
     color: #ffffff;
 }
+.follow{
+    grid-area: follow;
+}
+
+.insta{
+    grid-area: insta;    
+}
+
+.face{
+    grid-area: face;
+}
+
+.twitt{
+    grid-area: twitt;
+}
+
+.tick{
+    grid-area: tick;
+}
+
+/*fin footer*/
 
 .Container>.Content{
     grid-column: span 3; /*span es para ver cuantas columnas ocupa en el grid*/
