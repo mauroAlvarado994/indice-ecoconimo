@@ -110,20 +110,32 @@ li a{
     grid-area: follow;
 }
 
-.insta{
-    grid-area: insta;    
+#insta{
+    grid-area: insta;  
+    display: flex; 
+    gap: 5px; 
+    padding: 5px;
 }
 
-.face{
+#face{
     grid-area: face;
+    display: flex; 
+    gap: 5px; 
+    padding: 5px;
 }
 
-.twitt{
+#twitt{
     grid-area: twitt;
+    display: flex; 
+    gap: 5px; 
+    padding: 5px;
 }
 
-.tick{
+#tick{
     grid-area: tick;
+    display: flex; 
+    gap: 5px; 
+    padding: 5px;
 }
 
 /*fin footer*/
