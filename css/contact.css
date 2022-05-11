@@ -1,0 +1,166 @@
+:root{
+    /*Colors*/
+    --orangeeconomic: #ffdcc8;
+    --varAndFooter: #b3b8bb;
+    }
+    
+    *{
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+    }
+    
+    html{
+    font-size:62.5%;
+    }
+    
+    /******************body *************/
+    
+    body{
+        margin: 2%;
+        background-color: var(--orangeeconomic);
+    }
+    
+    /*Header*/
+    
+    .title{
+        display: flex;
+        gap: 10px;
+    }
+    
+    h1 {
+        font-family: 'UnifrakturMaguntia', cursive;
+        font-size: 80px;
+        color: var(--varAndFooter);
+        text-shadow: -2px -2px 1px white, 2px 2px 1px white, -2px 2px 1px white, 2px -2px 1px white;
+    }
+    
+    .title img{
+        width: 75px;
+        height: 75px;
+    }
+    
+    .advertising h2{
+        color: var(--varAndFooter);
+        
+    }
+    
+    .Container{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);    
+        font-family: 'Anek Devanagari', sans-serif;
+    }
+    
+    .Container>.header {
+        grid-column: 1/-1;
+        background-color: var(--varAndFooter);
+        color: #ffffff;
+    }
+    
+    .header .buttons{
+        list-style: none;
+        display: grid;
+        grid-template-columns:  5% 15% 10% 70%;
+        grid-template-areas: "inicio importante contactanos .";
+        padding: 20px;
+        font-size: 1.7em;
+        text-align: center;
+    }
+    
+    
+    li a{
+        color: azure;
+        text-decoration: none;
+    }
+    
+    .header .buttons .inicio{
+       grid-area: inicio;
+    }
+    
+    .header .buttons .importante{
+        grid-area: importante;
+     }
+    
+     .header .buttons .contactanos{
+        grid-area: contactanos;
+     }
+    
+    .advertising .advertaising-A{
+        margin: 25px 0 25px 0;
+        padding: 0 25px 0 25px;
+    }
+    
+    .advertising .Publicity{
+         height: 90%;
+         width: 90%;
+         padding: 5px;
+     }
+    
+     /*foooooteeeerrr*/
+    .Container>.Footer{
+        grid-column: 1/-1;
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+        grid-template-areas: "follow insta face twitt tick";
+        padding: 10px;
+        background-color: var(--varAndFooter);
+        color: #ffffff;
+    }
+    
+    .Footer a{
+        text-decoration: none;
+        color: #f7f7f7;
+    }
+    
+    .follow{
+        grid-area: follow;
+    }
+    
+    #insta{
+        grid-area: insta;  
+        display: flex; 
+        gap: 5px; 
+        padding: 5px;
+    }
+    
+    #face{
+        grid-area: face;
+        display: flex; 
+        gap: 5px; 
+        padding: 5px;
+    }
+    
+    #twitt{
+        grid-area: twitt;
+        display: flex; 
+        gap: 5px; 
+        padding: 5px;
+    }
+    
+    #tick{
+        grid-area: tick;
+        display: flex; 
+        gap: 5px; 
+        padding: 5px;
+    }
+    
+    #description{
+        font-size: 15px;
+    }
+    
+    /*fin footer*/
+    
+    .Container>.Content{
+        grid-column: span 3; /*span es para ver cuantas columnas ocupa en el grid*/
+    }
+    
+    .Container>.advertising{
+        grid-column: span 2;
+        border: 1px solid var(--varAndFooter);
+        margin: 10px;
+        padding: 10px;
+    }
+    
+    
+    
+    

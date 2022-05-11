@@ -25,19 +25,19 @@ body{
 
 .title{
     display: flex;
-    gap: 10px;
+    gap: 1em;
 }
 
 h1 {
     font-family: 'UnifrakturMaguntia', cursive;
-    font-size: 80px;
+    font-size: 8em;
     color: var(--varAndFooter);
     text-shadow: -2px -2px 1px white, 2px 2px 1px white, -2px 2px 1px white, 2px -2px 1px white;
 }
 
 .title img{
-    width: 75px;
-    height: 75px;
+    width: 7.5em;
+    height: 7.5em;
 }
 
 .advertising h2{
@@ -62,7 +62,7 @@ h1 {
     display: grid;
     grid-template-columns:  5% 15% 10% 70%;
     grid-template-areas: "inicio importante contactanos .";
-    padding: 20px;
+    padding: 2em;
     font-size: 1.7em;
     text-align: center;
 }
@@ -86,14 +86,14 @@ li a{
  }
 
 .advertising .advertaising-A{
-    margin: 25px 0 25px 0;
-    padding: 0 25px 0 25px;
+    margin: 2.5em 0 2.5em 0;
+    padding: 0 2.5em 0 2.5em;
 }
 
 .advertising .Publicity{
      height: 90%;
      width: 90%;
-     padding: 5px;
+     padding: .5em;
  }
 
  /*foooooteeeerrr*/
@@ -102,7 +102,7 @@ li a{
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
     grid-template-areas: "follow insta face twitt tick";
-    padding: 10px;
+    padding: 1em;
     background-color: var(--varAndFooter);
     color: #ffffff;
 }
@@ -119,33 +119,33 @@ li a{
 #insta{
     grid-area: insta;  
     display: flex; 
-    gap: 5px; 
-    padding: 5px;
+    gap: .5em; 
+    padding: .5em;
 }
 
 #face{
     grid-area: face;
     display: flex; 
-    gap: 5px; 
-    padding: 5px;
+    gap: .5em; 
+    padding: .5em;
 }
 
 #twitt{
     grid-area: twitt;
     display: flex; 
-    gap: 5px; 
-    padding: 5px;
+    gap: .5em; 
+    padding: .5em;
 }
 
 #tick{
     grid-area: tick;
     display: flex; 
-    gap: 5px; 
-    padding: 5px;
+    gap: .5em; 
+    padding: .5em;
 }
 
 #description{
-    font-size: 15px;
+    font-size: 1.5em;
 }
 
 /*fin footer*/
@@ -160,15 +160,15 @@ li a{
 }
 
 .Content .Articles{
-    margin: 10px;
-    padding: 5px;
-    border: 1px solid var(--varAndFooter);
+    margin: 1em;
+    padding: .5em;
+    border: .1em solid var(--varAndFooter);
     background-color: #f7f7f7;
 }
 /****news-title*******/
 .Content .Articles .news-title{
-    font-size: 35px;
-    padding: 5px;
+    font-size: 3.5em;
+    padding: .5em;
 }
 /*********images***********************/
 .Content .Articles .images{
@@ -178,9 +178,9 @@ li a{
 
 .Container>.advertising{
     grid-column: span 2;
-    border: 1px solid var(--varAndFooter);
-    margin: 10px;
-    padding: 10px;
+    border: .1em solid var(--varAndFooter);
+    margin: 1em;
+    padding: 1em;
 }
 
 
