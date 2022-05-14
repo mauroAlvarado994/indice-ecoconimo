@@ -17,7 +17,7 @@
     <!--icons-->
     <script src="https://kit.fontawesome.com/f83f584d89.js" crossorigin="anonymous"></script>
     <!--css & javascript-->
-    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/contact.css">
 </head>
 <body>
 
@@ -35,7 +35,17 @@
             </ul>
         </header>
         <main class="Content">
-            
+            <form action="https://formspree.io/f/xrgjrqeq"method="POST">
+            <section class="form"> 
+                <h2>¡Contactanos!</h2>
+                <input type="text" class="control" id="name-imput" placeholder="*Nombre Completo" required>
+                <input type="tel" class="control" id="tel" placeholder="Telefono">
+                <input type="email" class="control" id="mail-imput"  name="email" placeholder="*Correo Electronico" required>
+                <textarea name="message"  class="control" id="message" cols="30" rows="10"></textarea>
+                <input class="control" type="submit" value="Enviar">
+                <p>Los campos con * son obligatorios, los demas son opcionales.</p>
+            </section>
+            </form>     
         </main>
         <aside class="advertising">
             

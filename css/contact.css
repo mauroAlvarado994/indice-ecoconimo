@@ -66,6 +66,40 @@
         font-size: 1.7em;
         text-align: center;
     }
+
+    /*********content*********/
+    
+    .Content{
+        margin: auto;
+    }
+
+    .form h2{
+        margin: auto;
+        font-size: 2.5em;
+        color: var(--varAndFooter);
+    }
+
+    .form{
+        padding: 1em;
+        gap: .7em;
+        display: inline-grid;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .form .control{
+        padding: .6em;
+    }
+
+    .control{
+        min-width: 30em;
+        width: auto;
+    }
+
+    .form p{
+        font-size: 1.1em;
+    }
+
+    /********end Content**/
     
     
     li a{
