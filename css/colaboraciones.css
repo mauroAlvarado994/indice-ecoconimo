@@ -95,6 +95,14 @@
         color: var(--varAndFooter);
         padding: .3em;
     }
+
+    .Content .title-b p{
+        font-size: 1.4em;
+        font-weight: bold;
+        margin: .7em;
+        color: var(--varAndFooter);
+    } 
+
      /***********endContent**************/
     
     .advertising .advertaising-A{
