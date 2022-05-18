@@ -103,6 +103,22 @@
         color: var(--varAndFooter);
     } 
 
+  
+    #Pay-Pal{
+        margin: 1.5em;
+    }
+
+    #Pay-Pal input{
+        height: 4em;
+        width: 8em;
+    }
+
+
+    #Pay-Pal img{
+        height: 6em;
+        width: 6em;
+    }
+
      /***********endContent**************/
     
     .advertising .advertaising-A{
