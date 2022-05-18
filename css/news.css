@@ -25,19 +25,19 @@
     
     .title{
         display: flex;
-        gap: 1em;
+        gap: 10px;
     }
     
     h1 {
         font-family: 'UnifrakturMaguntia', cursive;
-        font-size: 8em;
+        font-size: 80px;
         color: var(--varAndFooter);
         text-shadow: -2px -2px 1px white, 2px 2px 1px white, -2px 2px 1px white, 2px -2px 1px white;
     }
     
     .title img{
-        width: 7.5em;
-        height: 7.5em;
+        width: 75px;
+        height: 75px;
     }
     
     .advertising h2{
@@ -62,10 +62,15 @@
         display: grid;
         grid-template-columns:  5% 15% 10% 70%;
         grid-template-areas: "inicio importante contactanos .";
-        padding: 2em;
+        padding: 20px;
         font-size: 1.7em;
         text-align: center;
     }
+
+    /*********content*********/
+    
+ 
+    /********end Content**/
     
     
     li a{
@@ -84,56 +89,16 @@
      .header .buttons .contactanos{
         grid-area: contactanos;
      }
-     /***********content*****************/
-    
-    .title-b{
-        text-align: center;
-    }
-     .Content .title-b h2{
-        font-size: 3.5em;
-        font-family: 'Lato', sans-serif;
-        color: var(--varAndFooter);
-        padding: .3em;
-    }
-
-    .Content .title-b p{
-        font-size: 1.4em;
-        font-weight: bold;
-        margin: .7em;
-        color: var(--varAndFooter);
-    } 
-
-  
-    #Pay-Pal{
-        margin: 1.5em;
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: center;
-        
-    }
-
-    #Pay-Pal input{
-        height: 4em;
-        width: 8em;
-    }
-
-
-    #Pay-Pal img{
-        height: 6em;
-        width: 6em;
-    }
-
-     /***********endContent**************/
     
     .advertising .advertaising-A{
-        margin: 2.5em 0 2.5em 0;
-        padding: 0 2.5em 0 2.5em;
+        margin: 25px 0 25px 0;
+        padding: 0 25px 0 25px;
     }
     
     .advertising .Publicity{
          height: 90%;
          width: 90%;
-         padding: .5em;
+         padding: 5px;
      }
     
      /*foooooteeeerrr*/
@@ -142,7 +107,7 @@
         display: grid;
         grid-template-columns: 20% 20% 20% 20% 20%;
         grid-template-areas: "follow insta face twitt tick";
-        padding: 1em;
+        padding: 10px;
         background-color: var(--varAndFooter);
         color: #ffffff;
     }
@@ -159,33 +124,33 @@
     #insta{
         grid-area: insta;  
         display: flex; 
-        gap: .5em; 
-        padding: .5em;
+        gap: 5px; 
+        padding: 5px;
     }
     
     #face{
         grid-area: face;
         display: flex; 
-        gap: .5em; 
-        padding: .5em;
+        gap: 5px; 
+        padding: 5px;
     }
     
     #twitt{
         grid-area: twitt;
         display: flex; 
-        gap: .5em; 
-        padding: .5em;
+        gap: 5px; 
+        padding: 5px;
     }
     
     #tick{
         grid-area: tick;
         display: flex; 
-        gap: .5em; 
-        padding: .5em;
+        gap: 5px; 
+        padding: 5px;
     }
     
     #description{
-        font-size: 1.5em;
+        font-size: 15px;
     }
     
     /*fin footer*/
@@ -196,9 +161,9 @@
     
     .Container>.advertising{
         grid-column: span 2;
-        border: .1em solid var(--varAndFooter);
-        margin: 1em;
-        padding: 1em;
+        border: 1px solid var(--varAndFooter);
+        margin: 10px;
+        padding: 10px;
     }
     
     
