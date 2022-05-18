@@ -2,6 +2,9 @@
     /*Colors*/
     --orangeeconomic: #ffdcc8;
     --varAndFooter: #b3b8bb;
+    --newsLetters: #48484a;
+    /*Fonts*/
+    --title: 'Newsreader', serif;
     }
     
     *{
@@ -68,8 +71,37 @@
     }
 
     /*********content*********/
-    
- 
+
+    .news-title-container{
+        text-align: center;
+    }
+
+    #news-title{
+        margin: .5em;
+        font-size: 3.5em;
+        font-family: var(--title);
+        color: var(--newsLetters);
+    }
+
+    .news-second-tittle{
+        margin: .5em;
+        font-size: 1.3em;
+        font-weight: lighter;
+        padding: 0 2em 0 2em;
+        font-family: var(--title);
+        color: var(--newsLetters);
+    }
+
+    #img-news1{
+        height: 45em;
+        width: 100%;
+
+    }
+
+    .news-body{
+        font-size: 2em;
+    }
+
     /********end Content**/
     
     
@@ -156,13 +188,14 @@
     /*fin footer*/
     
     .Container>.Content{
-        grid-column: span 3; /*span es para ver cuantas columnas ocupa en el grid*/
+        margin: 1% 5%;
+        grid-column: span 5; /*span es para ver cuantas columnas ocupa en el grid*/
     }
     
     .Container>.advertising{
-        grid-column: span 2;
+        grid-column: span 5;
         border: 1px solid var(--varAndFooter);
-        margin: 10px;
+        margin: 1% 5%;
         padding: 10px;
     }
     
