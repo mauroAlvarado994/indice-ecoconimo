@@ -121,6 +121,10 @@
      .header .buttons .contactanos{
         grid-area: contactanos;
      }
+
+     .advertising{
+         height: 20em;
+     }
     
     .advertising .advertaising-A{
         margin: 25px 0 25px 0;
