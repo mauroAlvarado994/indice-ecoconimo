@@ -62,7 +62,7 @@ h1 {
     display: grid;
     grid-template-columns:  5% 15% 10% 70%;
     grid-template-areas: "inicio importante contactanos .";
-    padding: 2em;
+    padding: 1em;
     font-size: 1.7em;
     text-align: center;
 }
@@ -168,7 +168,7 @@ li a{
 /****news-title*******/
 .Content .Articles .news-title{
     font-size: 3.5em;
-    padding: .5em;
+    padding: .2em;
 }
 /*********images***********************/
 .Content .Articles .images{
@@ -181,6 +181,10 @@ li a{
     border: .1em solid var(--varAndFooter);
     margin: 1em;
     padding: 1em;
+}
+
+.News-Description{
+    font-size: 1.5em;
 }
 
 
