@@ -40,6 +40,10 @@ h1 {
     height: 7.5em;
 }
 
+.hambuergerMenu{
+    display: none;
+}
+
 .advertising h2{
     color: var(--varAndFooter);
     

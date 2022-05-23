@@ -1,0 +1,86 @@
+@media screen and (max-width: 1150px){ /**laptop's**/
+
+    .title{
+        font-size: .8em;
+
+    }
+
+}
+
+@media screen and (max-width: 900px){
+
+    .buttons{
+        gap:1em;
+    }
+
+}
+
+@media screen and (max-width: 768px) { /**tablets**/
+
+    .title h1{
+        font-size: 6em;
+    }
+
+    .title img{
+        width: 6em;
+        height: 6em;
+    }
+
+    .News-Description {
+        font-size: 1.2em;
+    }
+
+    /*********header*****************/
+
+    .header .buttons{
+        font-size: 1.4em;
+    }
+
+    /*news*/
+    .Content .Articles .news-title{
+        font-size: 2.8em;
+        padding: .1em;
+    }
+
+    /*advertising*/
+    #description{
+        font-size: 1.2em;
+    }
+
+    .Container>.advertising{
+        margin: 0;
+        padding: 0;
+    }
+
+    .advertising .advertaising-A{
+        padding: 0 1em 0 1em;
+    }
+}
+
+@media screen and (max-width: 540px){ /**big phone's**/
+
+    /***title***/
+    .title h1{
+        font-size: 5em;
+    }
+
+    .title img{
+        width: 4em;
+        height: 4em;
+
+    }
+
+
+    /***menu****/
+    .header .buttons{
+    display: none;
+    }
+
+    /*****advertising****/
+    .Container>.advertising{
+        margin: 1em;
+    }
+
+}
+
+
