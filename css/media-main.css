@@ -59,6 +59,10 @@
 
 @media screen and (max-width: 540px){ /**big phone's**/
 
+    :root{
+        margin: 10px;
+    }
+
     /***title***/
     .title h1{
         font-size: 5em;
@@ -72,6 +76,11 @@
 
 
     /***menu****/
+
+    .hambuergerMenu{
+        display: block;
+    }
+
     .header .buttons{
     display: none;
     }

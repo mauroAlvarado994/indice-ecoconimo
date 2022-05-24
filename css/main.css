@@ -2,6 +2,7 @@
 /*Colors*/
 --orangeeconomic: #ffdcc8;
 --varAndFooter: #b3b8bb;
+--orangeButton: #f1d04f;
 }
 
 *{
@@ -42,6 +43,37 @@ h1 {
 
 .hambuergerMenu{
     display: none;
+    width: 5em;
+    height: 5em;
+    background-color: var(--orangeButton);
+    position: fixed;
+    left: 89%;
+    border-radius: 50%;
+    padding: .5em;
+    cursor:pointer;
+}
+
+.hambuergerMenu span{
+    display: block;
+    width: 75%;
+    height: .2em;
+    background: white;
+    margin: .8em 0  0 .5em;
+    transform-origin: 0 100%;
+    transition: all 600ms;
+}
+
+.activeline1{
+    transform: rotate(45deg) translate(1px, -4px);
+}
+
+.activeline2{
+    opacity: 0;
+    margin-left: -30px;
+}
+
+.activeline3{
+    transform: rotate(-45deg) translate(4px, 2px);
 }
 
 .advertising h2{
