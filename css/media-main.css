@@ -82,8 +82,14 @@
     }
 
     .header .buttons{
-    display: none;
+        display: none;
+        padding: 0;
     }
+
+    .header .menuActive{
+        display: block;
+    }
+
 
     /*****advertising****/
     .Container>.advertising{
